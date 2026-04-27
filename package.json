@@ -1,0 +1,24 @@
+{
+	"name": "functional-theme",
+	"displayName": "Functional Theme",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Functional Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Functional Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 29066
+	}
+}
