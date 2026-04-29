@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Component, Input, Output, EventEmitter, OnInit, signal, computed } from '@angular/core'
 import { NgClass, DatePipe } from '@angular/common'
 import { FormsModule } from '@angular/forms'

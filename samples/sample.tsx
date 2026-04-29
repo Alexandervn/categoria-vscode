@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState, useEffect, useRef, type FC, type ReactNode } from 'react'
 
 // Props types

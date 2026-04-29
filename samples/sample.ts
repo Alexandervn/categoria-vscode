@@ -1,4 +1,4 @@
-// Single-line comment
+// @ts-nocheck
 
 /**
  * Block comment / JSDoc
