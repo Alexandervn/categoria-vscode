@@ -17,7 +17,7 @@ Restart VS Code, then select **Categoria** via `Cmd+Shift+P` → *Preferences: C
 
 The theme is defined in `themes/categoria-color-theme.json`. After editing it, reload VS Code with `Cmd+Shift+P` → *Developer: Reload Window* to see changes immediately — no build step needed.
 
-To preview changes in an isolated window instead, open the repo in VS Code and press `F5`. This launches an Extension Development Host with the theme active. Changes to the theme file are applied automatically in that window without a reload.
+To preview changes in an isolated window instead, open the repo in VS Code and run *Launch Extension* via `View → Run` (or `F5`). This launches an Extension Development Host with the theme active. Changes to the theme file are applied automatically in that window without a reload.
 
 To figure out which scope to target for a given token, use `Cmd+Shift+P` → *Developer: Inspect Editor Tokens and Scopes* and click on any piece of code.
 
