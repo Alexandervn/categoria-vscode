@@ -1,16 +1,24 @@
-# functional-theme README
+# Categoria
 
-## Working with Markdown
+A personal dark theme for VS Code.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installation
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Clone the repo and symlink it into your VS Code extensions folder:
 
-## For more information
+```sh
+git clone <repo-url> ~/projects/categoria
+ln -s ~/projects/categoria ~/.vscode/extensions/categoria
+```
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Restart VS Code, then select **Categoria** via `Cmd+Shift+P` → *Preferences: Color Theme*.
 
-**Enjoy!**
+## Development
+
+The theme is defined in `themes/categoria-color-theme.json`. After editing it, reload VS Code with `Cmd+Shift+P` → *Developer: Reload Window* to see changes immediately — no build step needed.
+
+To preview changes in an isolated window instead, open the repo in VS Code and press `F5`. This launches an Extension Development Host with the theme active. Changes to the theme file are applied automatically in that window without a reload.
+
+To figure out which scope to target for a given token, use `Cmd+Shift+P` → *Developer: Inspect Editor Tokens and Scopes* and click on any piece of code.
+
+Token colorization is based on standard TextMate themes — colors are matched against one or more scopes. See the [color theme documentation](https://code.visualstudio.com/api/extension-guides/color-theme) to learn more.
