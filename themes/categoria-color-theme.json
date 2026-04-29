@@ -54,7 +54,8 @@
         "meta.embedded.expression",
         "meta.objectliteral",
         "entity.other.attribute-name",
-        "entity.name.type.class"
+        "entity.name.type.class",
+        "entity.other.inherited-class.ts"
       ],
       "settings": {
         "foreground": "#d6d6d6"
