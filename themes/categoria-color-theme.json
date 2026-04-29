@@ -76,7 +76,9 @@
         "meta.objectliteral",
         "entity.other.attribute-name",
         "entity.name.type.class",
-        "entity.other.inherited-class.ts"
+        "entity.other.inherited-class.ts",
+        "variable.other.enummember.ts",
+        "meta.enum.declaration.ts"
       ],
       "settings": {
         "foreground": "#d6d6d6"
