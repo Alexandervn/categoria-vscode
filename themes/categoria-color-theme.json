@@ -41,6 +41,8 @@
     {
       "scope": [
         "variable.other.readwrite",
+        "variable.other.property",
+        "variable.other.object",
         "meta.var-single-variable.expr",
         "meta.object-binding-pattern-variable",
         "meta.array-binding-pattern-variable",
