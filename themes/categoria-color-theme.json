@@ -12,9 +12,30 @@
   },
   "tokenColors": [
     {
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "variable.other.link.underline.jsdoc"
+      ],
       "settings": {
         "foreground": "#666"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.class.jsdoc",
+        "punctuation.definition.block.tag.jsdoc",
+        "punctuation.definition.inline.tag.jsdoc",
+        "punctuation.definition.bracket.curly.begin.jsdoc",
+        "punctuation.definition.bracket.curly.end.jsdoc",
+        "entity.name.type.instance.jsdoc",
+        "entity.name.type.jsdoc",
+        "variable.other.jsdoc",
+        "string.other.link.jsdoc",
+        "markup.underline.link.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#7c7c7c"
       }
     },
     {
