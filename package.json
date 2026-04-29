@@ -1,24 +1,24 @@
 {
-	"name": "categoria",
-	"displayName": "Categoria",
-	"description": "Color theme for Visual Studio Code",
-	"version": "0.0.2",
-	"engines": {
-		"vscode": "^1.117.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Categoria",
-				"uiTheme": "vs-dark",
-				"path": "./themes/categoria-color-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"size": 29066
-	}
+  "name": "categoria",
+  "displayName": "Categoria",
+  "description": "Color theme for Visual Studio Code",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.117.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Categoria",
+        "uiTheme": "vs-dark",
+        "path": "./themes/categoria-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "size": 29066
+  }
 }
