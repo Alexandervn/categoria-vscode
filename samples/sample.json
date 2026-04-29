@@ -1,0 +1,18 @@
+{
+  "name": "categoria",
+  "version": "0.0.2",
+  "enabled": true,
+  "count": 42,
+  "ratio": 3.14,
+  "nothing": null,
+  "tags": ["dark", "theme", "vscode"],
+  "author": {
+    "name": "Alexander",
+    "email": "alexander@therock.nl"
+  },
+  "nested": {
+    "deep": {
+      "value": true
+    }
+  }
+}

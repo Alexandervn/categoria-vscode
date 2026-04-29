@@ -1,0 +1,35 @@
+<section class="user-list">
+  <header>
+    <h2>{{ title }}</h2>
+    <input
+      type="search"
+      [(ngModel)]="query"
+      placeholder="Search users…"
+      aria-label="Search users"
+    />
+  </header>
+
+  @if (loading()) {
+    <p class="status">Loading…</p>
+  } @else if (filtered().length === 0) {
+    <p class="status">No users found.</p>
+  } @else {
+    <ul>
+      @for (user of filtered(); track user.id; let i = $index) {
+        <li
+          [class.is-admin]="isAdmin(user)"
+          [attr.aria-posinset]="i + 1"
+          (click)="select(user)"
+        >
+          <span class="user__name">{{ user.name }}</span>
+          <span class="user__role">{{ user.role }}</span>
+          <time [dateTime]="user.joinedAt.toISOString()">
+            {{ user.joinedAt | date: 'mediumDate' }}
+          </time>
+        </li>
+      } @empty {
+        <li>No results.</li>
+      }
+    </ul>
+  }
+</section>
