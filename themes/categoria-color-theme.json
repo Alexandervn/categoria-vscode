@@ -2,7 +2,13 @@
   "name": "Categoria",
   "colors": {
     "editor.background": "#222",
-    "editor.foreground": "#999"
+    "editor.foreground": "#999",
+    "editorBracketHighlight.foreground1": "#999",
+    "editorBracketHighlight.foreground2": "#999",
+    "editorBracketHighlight.foreground3": "#999",
+    "editorBracketHighlight.foreground4": "#999",
+    "editorBracketHighlight.foreground5": "#999",
+    "editorBracketHighlight.foreground6": "#999"
   },
   "tokenColors": [
     {
