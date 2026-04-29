@@ -2,7 +2,7 @@
   "name": "Categoria",
   "colors": {
     "editor.background": "#222",
-    "editor.foreground": "#999",
+    "editor.foreground": "#d6d6d6",
     "editorBracketHighlight.foreground1": "#999",
     "editorBracketHighlight.foreground2": "#999",
     "editorBracketHighlight.foreground3": "#999",
@@ -42,7 +42,11 @@
       "scope": [
         "meta.function-call",
         "meta.selector.css",
-        "support.class.component"
+        "support.class.component",
+        "variable.language.this.ts",
+        "support.function.misc.css",
+        "keyword.control.at-rule.media.css",
+        "keyword.control.at-rule.keyframes.css"
       ],
       "settings": {
         "foreground": "#e8bb40"
@@ -53,7 +57,22 @@
         "storage",
         "keyword",
         "meta.tag.attributes",
-        "punctuation.accessor"
+        "punctuation.accessor",
+        "entity.name.tag",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.tsx",
+        "meta.tag.attributes.tsx",
+        "meta.tag.tsx",
+        "support.class.component.tsx",
+        "meta.function.variable.css",
+        "support.constant.property-value.css",
+        "support.constant.color.current.css",
+        "meta.property-value.css",
+        "entity.other.attribute-name.css",
+        "entity.other.keyframe-offset.css",
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.attribute-name.pseudo-class.css",
+        "support.type.property-name"
       ],
       "settings": {
         "foreground": "#aad1d6"
@@ -63,7 +82,6 @@
       "scope": [
         "variable.other.readwrite",
         "variable.other.property",
-        "variable.other.object",
         "meta.var-single-variable.expr",
         "meta.object-binding-pattern-variable",
         "meta.array-binding-pattern-variable",
@@ -79,7 +97,8 @@
         "entity.other.inherited-class.ts",
         "variable.other.enummember.ts",
         "meta.enum.declaration.ts",
-        "variable.language.this.ts"
+        "variable.argument.css",
+        "text.html.derivative"
       ],
       "settings": {
         "foreground": "#d6d6d6"
@@ -92,7 +111,13 @@
       }
     },
     {
-      "scope": ["string", "constant", "keyword.control.anchor.regexp"],
+      "scope": [
+        "string",
+        "constant",
+        "keyword.control.anchor.regexp",
+        "constant.numeric.css",
+        "support.constant.font-name.css"
+      ],
       "settings": {
         "foreground": "#72e6bc"
       }
