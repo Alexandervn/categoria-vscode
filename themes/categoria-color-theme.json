@@ -12,6 +12,7 @@
   },
   "tokenColors": [
     {
+      "name": "Comments",
       "scope": [
         "comment",
         "punctuation.definition.comment",
@@ -22,6 +23,7 @@
       }
     },
     {
+      "name": "Comments (JSDoc)",
       "scope": [
         "storage.type.class.jsdoc",
         "punctuation.definition.block.tag.jsdoc",
@@ -39,6 +41,7 @@
       }
     },
     {
+      "name": "Calls",
       "scope": [
         "meta.function-call",
         "meta.selector.css",
@@ -64,6 +67,7 @@
       }
     },
     {
+      "name": "Keywords",
       "scope": [
         "storage",
         "keyword",
@@ -90,6 +94,7 @@
       }
     },
     {
+      "name": "Identifiers",
       "scope": [
         "variable.other.readwrite",
         "variable.other.property",
@@ -114,12 +119,14 @@
       }
     },
     {
+      "name": "Punctuation",
       "scope": ["punctuation"],
       "settings": {
         "foreground": "#999"
       }
     },
     {
+      "name": "Literals",
       "scope": [
         "string",
         "constant",
@@ -172,6 +179,7 @@
       }
     },
     {
+      "name": "Types",
       "scope": [
         "support.type.primitive",
         "support.type.builtin",
