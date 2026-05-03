@@ -1,21 +1,21 @@
 # Categoria
 
-Experimental dark theme for VS Code
+Experimental dark theme for VS Code based on theming syntactic categories
 
-## Idea
+## Concept
 
 Each syntactic category gets its own distinct color, so code can be read by category at a glance rather than needing to parse every token.
 
-| Color      | Category                                                        |
-| ---------- | --------------------------------------------------------------- |
-| amber      | calls — function calls, method calls, CSS selectors, components |
-| light blue | keywords — `const`, `function`, `if`, `return`, accessors       |
-| green      | literals — strings, constants, regexp                           |
-| magenta    | types — type names, primitives, builtins                        |
-| white      | identifiers — variables, parameters, definitions, attributes    |
-| dark gray  | comments                                                        |
+| Color      | Category                                                                    |
+| ---------- | --------------------------------------------------------------------------- |
+| amber      | calls — calls of function or methods                                        |
+| light blue | keywords — built in keywords like `const`, `function`, `if`, `return`, etc. |
+| green      | literals — user provided values like strings, numbers, regexp, etc.         |
+| magenta    | types — names of types, interfaces and classes                              |
+| white      | identifiers — user provided named of variables                              |
+| dark gray  | comments                                                                    |
 
-This to make it easier to scan (lots of, unfamiliar) code.
+The goal is to make it easier to scan lots of unfamiliar code.
 
 ## Scope
 
@@ -23,7 +23,7 @@ Categoria only defines colors for the editor pane.
 
 UI surfaces — sidebar, activity bar, status bar, terminal, panels — are not themed and will inherit your current base theme (typically Dark+).
 
-Colors for diffs (inserted, deleted, changed) are also not themed.
+Colors for diffs (inserted, deleted, changed) are not themed.
 
 ## Installation
 
