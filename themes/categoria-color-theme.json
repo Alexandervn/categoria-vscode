@@ -189,7 +189,8 @@
         "support.constant.color.current.css",
         "markup.inline.raw.string.markdown",
         "markup.underline.link.markdown",
-        "markup.underline.link.image.markdown"
+        "markup.underline.link.image.markdown",
+        "support.constant.color"
       ],
       "settings": {
         "foreground": "#72e6bc"
