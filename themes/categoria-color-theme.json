@@ -103,7 +103,6 @@
         "meta.embedded.expression",
         "meta.objectliteral",
         "entity.other.attribute-name",
-        "entity.name.type.class",
         "entity.other.inherited-class.ts",
         "variable.other.enummember.ts",
         "meta.enum.declaration.ts",
@@ -176,7 +175,9 @@
       "scope": [
         "support.type.primitive",
         "support.type.builtin",
-        "entity.name.type"
+        "entity.name.type",
+        "entity.name.type.class",
+        "entity.other.inherited-class.ts"
       ],
       "settings": {
         "foreground": "#ff6895"
