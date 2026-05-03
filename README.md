@@ -6,14 +6,14 @@ Experimental dark theme for VS Code
 
 Each syntactic category gets its own distinct color, so code can be read by category at a glance rather than needing to parse every token.
 
-| Color                | Category                                                        |
-| -------------------- | --------------------------------------------------------------- |
-| `#e8bb40` amber      | calls — function calls, method calls, CSS selectors, components |
-| `#aad1d6` light blue | keywords — `const`, `function`, `if`, `return`, accessors       |
-| `#72e6bc` green      | literals — strings, constants, regexp                           |
-| `#ff6895` magenta    | types — type names, primitives, builtins                        |
-| `#d6d6d6` white      | identifiers — variables, parameters, definitions, attributes    |
-| `#666` dark gray     | comments                                                        |
+| Color      | Category                                                        |
+| ---------- | --------------------------------------------------------------- |
+| amber      | calls — function calls, method calls, CSS selectors, components |
+| light blue | keywords — `const`, `function`, `if`, `return`, accessors       |
+| green      | literals — strings, constants, regexp                           |
+| magenta    | types — type names, primitives, builtins                        |
+| white      | identifiers — variables, parameters, definitions, attributes    |
+| dark gray  | comments                                                        |
 
 This to make it easier to scan (lots of, unfamiliar) code.
 
