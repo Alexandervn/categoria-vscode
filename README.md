@@ -23,6 +23,8 @@ Categoria only defines colors for the editor pane.
 
 UI surfaces — sidebar, activity bar, status bar, terminal, panels — are not themed and will inherit your current base theme (typically Dark+).
 
+Colors for diffs (inserted, deleted, changed) are also not themed.
+
 ## Installation
 
 Clone the repo and symlink it into your VS Code extensions folder:
