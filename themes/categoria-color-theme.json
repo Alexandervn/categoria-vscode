@@ -79,6 +79,7 @@
         "meta.property-value.css",
         "entity.other.attribute-name.css",
         "entity.other.keyframe-offset.css",
+        "punctuation.definition.entity.css",
         "entity.other.attribute-name.pseudo-element.css",
         "entity.other.attribute-name.pseudo-class.css",
         "support.type.property-name"
