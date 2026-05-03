@@ -192,10 +192,33 @@
       }
     }
   ],
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "semanticTokenColors": {
-    "class": "#CCC",
+    "comment": "#666",
+    "string": "#72e6bc",
+    "number": "#72e6bc",
+    "regexp": "#72e6bc",
+    "keyword": "#aad1d6",
+    "modifier": "#aad1d6",
+    "operator": "#aad1d6",
+    "namespace": "#aad1d6",
+    "class": "#ff6895",
+    "interface": "#ff6895",
+    "enum": "#ff6895",
+    "struct": "#ff6895",
+    "type": "#ff6895",
+    "typeParameter": "#ff6895",
+    "function": "#e8bb40",
     "method": "#e8bb40",
-    "function": "#e8bb40"
+    "method.declaration": "#d6d6d6",
+    "decorator": "#e8bb40",
+    "macro": "#e8bb40",
+    "class.defaultLibrary": "#e8bb40",
+    "variable": "#d6d6d6",
+    "parameter": "#d6d6d6",
+    "property": "#d6d6d6",
+    "enumMember": "#d6d6d6",
+    "event": "#d6d6d6",
+    "label": "#d6d6d6"
   }
 }
