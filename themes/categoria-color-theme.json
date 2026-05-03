@@ -112,7 +112,8 @@
         "variable.other.enummember.ts",
         "meta.enum.declaration.ts",
         "variable.argument.css",
-        "text.html.derivative"
+        "text.html.derivative",
+        "entity.other.attribute-name.class.css"
       ],
       "settings": {
         "foreground": "#d6d6d6"
