@@ -82,7 +82,8 @@
         "punctuation.definition.entity.css",
         "entity.other.attribute-name.pseudo-element.css",
         "entity.other.attribute-name.pseudo-class.css",
-        "support.type.property-name"
+        "support.type.property-name",
+        "entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#aad1d6"
@@ -102,7 +103,6 @@
         "meta.var.expr",
         "meta.embedded.expression",
         "meta.objectliteral",
-        "entity.other.attribute-name",
         "entity.other.inherited-class.ts",
         "variable.other.enummember.ts",
         "meta.enum.declaration.ts",
