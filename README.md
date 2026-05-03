@@ -17,6 +17,12 @@ Each syntactic category gets its own distinct color, so code can be read by cate
 
 This to make it easier to scan (lots of, unfamiliar) code.
 
+## Scope
+
+Categoria only defines colors for the editor pane.
+
+UI surfaces — sidebar, activity bar, status bar, terminal, panels — are not themed and will inherit your current base theme (typically Dark+).
+
 ## Installation
 
 Clone the repo and symlink it into your VS Code extensions folder:
@@ -37,3 +43,7 @@ To preview changes in an isolated window instead, open the repo in VS Code and r
 To figure out which scope to target for a given token, use `Cmd+Shift+P` → _Developer: Inspect Editor Tokens and Scopes_ and click on any piece of code.
 
 Token colorization is based on standard TextMate themes — colors are matched against one or more scopes. See the [color theme documentation](https://code.visualstudio.com/api/extension-guides/color-theme) to learn more.
+
+## Accessibility
+
+The comment color (`#666` on `#222`) has a contrast ratio of roughly `3.7:1`, below the WCAG AA threshold of `4.5:1`. Comments may be hard to read on smaller or lower-brightness screens.
