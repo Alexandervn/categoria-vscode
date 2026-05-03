@@ -80,7 +80,6 @@
         "meta.tag.tsx",
         "support.class.component.tsx",
         "meta.function.variable.css",
-        "meta.property-value.css",
         "entity.other.attribute-name.css",
         "entity.other.keyframe-offset.css",
         "punctuation.definition.entity.css",
