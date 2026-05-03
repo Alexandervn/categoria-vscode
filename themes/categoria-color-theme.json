@@ -120,7 +120,6 @@
         "meta.var.expr",
         "meta.embedded.expression",
         "meta.objectliteral",
-        "entity.other.inherited-class.ts",
         "variable.other.enummember.ts",
         "meta.enum.declaration.ts",
         "variable.argument.css",
