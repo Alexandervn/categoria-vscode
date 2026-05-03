@@ -46,7 +46,18 @@
         "variable.language.this.ts",
         "support.function.misc.css",
         "keyword.control.at-rule.media.css",
-        "keyword.control.at-rule.keyframes.css"
+        "keyword.control.at-rule.keyframes.css",
+        "keyword.control.at-rule.import.css",
+        "keyword.control.at-rule.font-face.css",
+        "keyword.control.at-rule.supports.css",
+        "keyword.control.at-rule.charset.css",
+        "keyword.control.at-rule.namespace.css",
+        "keyword.control.at-rule.page.css",
+        "keyword.control.at-rule.layer.css",
+        "keyword.control.at-rule.property.css",
+        "keyword.control.at-rule.container.css",
+        "keyword.control.at-rule.counter-style.css",
+        "keyword.control.at-rule.font-feature-values.css"
       ],
       "settings": {
         "foreground": "#e8bb40"
