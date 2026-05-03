@@ -46,7 +46,6 @@
         "meta.function-call",
         "meta.selector.css",
         "support.class.component",
-        "variable.language.this.ts",
         "support.function.misc.css",
         "keyword.control.at-rule.media.css",
         "keyword.control.at-rule.keyframes.css",
@@ -98,7 +97,8 @@
         "punctuation.definition.image.markdown",
         "punctuation.definition.raw.markdown",
         "meta.separator.markdown",
-        "fenced_code.block.language.markdown"
+        "fenced_code.block.language.markdown",
+        "variable.language.this.ts"
       ],
       "settings": {
         "foreground": "#aad1d6"
@@ -107,8 +107,6 @@
     {
       "name": "Identifiers",
       "scope": [
-        "variable.other.readwrite",
-        "variable.other.property",
         "meta.var-single-variable.expr",
         "meta.object-binding-pattern-variable",
         "meta.array-binding-pattern-variable",
@@ -226,15 +224,9 @@
     "struct": "#ff6895",
     "type": "#ff6895",
     "typeParameter": "#ff6895",
-    "function": "#e8bb40",
-    "method": "#e8bb40",
-    "method.declaration": "#d6d6d6",
     "decorator": "#e8bb40",
     "macro": "#e8bb40",
     "class.defaultLibrary": "#e8bb40",
-    "variable": "#d6d6d6",
-    "parameter": "#d6d6d6",
-    "property": "#d6d6d6",
     "enumMember": "#d6d6d6",
     "event": "#d6d6d6",
     "label": "#d6d6d6"
