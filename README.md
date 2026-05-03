@@ -1,19 +1,19 @@
 # Categoria
 
-Experimental dark theme for VS Code based on theming syntactic categories
+Experimental dark VS Code theme that colors syntax by category
 
 ## Concept
 
 Each syntactic category gets its own distinct color, so code can be read by category at a glance rather than needing to parse every token.
 
-| Color      | Category                                                                    |
-| ---------- | --------------------------------------------------------------------------- |
-| amber      | calls — calls of function or methods                                        |
-| light blue | keywords — built in keywords like `const`, `function`, `if`, `return`, etc. |
-| green      | literals — user provided values like strings, numbers, regexp, etc.         |
-| magenta    | types — names of types, interfaces and classes                              |
-| white      | identifiers — user provided named of variables                              |
-| dark gray  | comments                                                                    |
+| Color      | Category                                                                              |
+| ---------- | ------------------------------------------------------------------------------------- |
+| light blue | keywords — built-in keywords like `const`, `function`, `if`, `return`, etc.           |
+| magenta    | types — names of types, interfaces and classes                                        |
+| white      | identifiers — user-provided names of variables, properties, labels, event names, etc. |
+| green      | literals — user-provided values like strings, numbers, regexp, etc.                   |
+| amber      | calls — function or method calls                                                      |
+| gray       | comments, JS Docs, punctuation                                                        |
 
 The goal is to make it easier to scan lots of unfamiliar code.
 
@@ -25,27 +25,23 @@ UI surfaces — sidebar, activity bar, status bar, terminal, panels — are not 
 
 Colors for diffs (inserted, deleted, changed) are not themed.
 
+Comments may be hard to read on smaller or lower-brightness screens.
+
 ## Installation
 
 Clone the repo and symlink it into your VS Code extensions folder:
 
 ```sh
-git clone <repo-url> ~/projects/categoria
+git clone https://github.com/alexandervn/categoria-vscode ~/projects/categoria
 ln -s ~/projects/categoria ~/.vscode/extensions/categoria
 ```
 
-Restart VS Code, then select **Categoria** via `Cmd+Shift+P` → _Preferences: Color Theme_.
+Restart VS Code, then select **Categoria** via `Cmd/Ctrl+Shift+P` → _Preferences: Color Theme_.
 
 ## Development
 
-The theme is defined in `themes/categoria-color-theme.json`. After editing it, reload VS Code with `Cmd+Shift+P` → _Developer: Reload Window_ to see changes immediately — no build step needed.
+The theme is defined in `themes/categoria-color-theme.json`. After editing it, reload VS Code with `Cmd/Ctrl+Shift+P` → _Developer: Reload Window_ to see changes immediately.
+
+To figure out which scope to target for a given token, use `Cmd/Ctrl+Shift+P` → _Developer: Inspect Editor Tokens and Scopes_ and click on any piece of code.
 
 To preview changes in an isolated window instead, open the repo in VS Code and run _Launch Extension_ via `View → Run` (or `F5`). This launches an Extension Development Host with the theme active. Changes to the theme file are applied automatically in that window without a reload.
-
-To figure out which scope to target for a given token, use `Cmd+Shift+P` → _Developer: Inspect Editor Tokens and Scopes_ and click on any piece of code.
-
-Token colorization is based on standard TextMate themes — colors are matched against one or more scopes. See the [color theme documentation](https://code.visualstudio.com/api/extension-guides/color-theme) to learn more.
-
-## Accessibility
-
-The comment color (`#666` on `#222`) has a contrast ratio of roughly `3.7:1`, below the WCAG AA threshold of `4.5:1`. Comments may be hard to read on smaller or lower-brightness screens.
